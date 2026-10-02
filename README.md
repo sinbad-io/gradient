@@ -24,7 +24,7 @@ The box has no content of its own, so give it a size. It shows the tile's mean c
 | `palette` | `blue`, `cyan`, `green`, `lime`, `periwinkle` or `pink`.                                                                                             |
 | `mood`    | `bands`, `bloom`, `cross`, `curve`, `fan`, `field`, `fold`, `gel`, `layers`, `leaf`, `petals`, `streaks`, `surf`, `swell`, `wall`, `wave` or `wind`. |
 | `tile`    | One tile by its id, over the seed.                                                                                                                   |
-| `base`    | Where `tiles/` is served. Defaults to this release on jsDelivr.                                                                                      |
+| `base`    | Where `tiles/` is served. Defaults to jsDelivr, pinned to the commit that added them.                                                                |
 
 Unfiltered, seeds in a row never share a palette, so a list of people or projects comes out varied without anyone
 choosing. To serve the images yourself, copy `tiles/` into your public folder and pass `base="/tiles/"`.

@@ -1,8 +1,8 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import { TILES } from "./tiles.js";
 export { MOODS, PALETTES, TILES, } from "./tiles.js";
-/** This release's tiles on jsDelivr; serve your own copy of tiles/ with `base`. */
-export const CDN = "https://cdn.jsdelivr.net/gh/sinbad-io/gradient@v0.1.0/tiles/";
+/** The tiles on jsDelivr, pinned to the commit that added them; serve your own copy of tiles/ with `base`. */
+export const CDN = "https://cdn.jsdelivr.net/gh/sinbad-io/gradient@1938c62079a7f01146b3d3e577aa4986d68948c9/tiles/";
 function mulberry32(seed) {
     let t = seed | 0;
     return () => {

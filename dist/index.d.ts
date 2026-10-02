@@ -1,8 +1,8 @@
 import type { HTMLAttributes } from "react";
 import { type Mood, type Palette, type Tile } from "./tiles.js";
 export { MOODS, PALETTES, TILES, type Mood, type Palette, type Tile, } from "./tiles.js";
-/** This release's tiles on jsDelivr; serve your own copy of tiles/ with `base`. */
-export declare const CDN = "https://cdn.jsdelivr.net/gh/sinbad-io/gradient@v0.1.0/tiles/";
+/** The tiles on jsDelivr, pinned to the commit that added them; serve your own copy of tiles/ with `base`. */
+export declare const CDN = "https://cdn.jsdelivr.net/gh/sinbad-io/gradient@1938c62079a7f01146b3d3e577aa4986d68948c9/tiles/";
 /** A 32-bit hash of a string: the same id is always the same seed. */
 export declare function seedOf(value: string): number;
 export interface PickOptions {

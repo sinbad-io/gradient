@@ -10,9 +10,9 @@ export {
   type Tile,
 } from "./tiles.js";
 
-/** This release's tiles on jsDelivr; serve your own copy of tiles/ with `base`. */
+/** The tiles on jsDelivr, pinned to the commit that added them; serve your own copy of tiles/ with `base`. */
 export const CDN =
-  "https://cdn.jsdelivr.net/gh/sinbad-io/gradient@v0.1.0/tiles/";
+  "https://cdn.jsdelivr.net/gh/sinbad-io/gradient@1938c62079a7f01146b3d3e577aa4986d68948c9/tiles/";
 
 function mulberry32(seed: number) {
   let t = seed | 0;
